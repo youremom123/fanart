@@ -11,8 +11,7 @@ public class playerControl : MonoBehaviour
 
     Rigidbody2D rb;
 
-    public float jumpForce;
-    bool jump = true;
+    
     
     // Start is called before the first frame update
     void Start()
@@ -30,7 +29,7 @@ public class playerControl : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
 
-           jump = true
+            
 
         }
 
